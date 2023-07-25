@@ -1,0 +1,12 @@
+<footer id="main-footer">
+    <ul>
+        <li class="text-small text-grey-dk-000 mb-0">
+            {% if page.date %}
+                Last modified: {{ page.date | date: "%B %d, %Y" }}
+            {% endif %}
+        </li>
+        <li class="text-small text-grey-dk-000 mb-0">
+            Copyright &copy; 2014-{{ "now" | date: "%Y" }} Chenyun Yang
+        </li>
+    </ul>
+</footer>

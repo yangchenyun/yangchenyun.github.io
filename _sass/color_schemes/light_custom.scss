@@ -1,0 +1,196 @@
+@import "./color_schemes/light";
+
+
+$body-font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+$mono-font-family: IBM Plex Mono, SFMono-Regular,Consolas,Menlo,Andale,monospace;
+$body-font-serif: Freight Text Pro,-apple-system-ui-serif, ui-serif,Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif;
+
+$colors-background: #f4f4f9;
+$colors-text: #182027;
+$colors-primary: #182027;
+$colors-secondary: #777b94;
+$colors-muted: #dadcea;
+$colors-inset: #fff;
+$colors-accent: #E11d30; 
+$colors-accentMuted: #ef8585;
+
+// White Theme
+$bg-2: #F1EFE7;
+
+$body-background-color: $colors-background;
+$sidebar-color: $bg-2;
+$feedback-color: darken($sidebar-color, 3%) ;
+
+$link-color: $colors-accent;
+$nav-child-link-color: $colors-accent;
+
+// $body-heading-color: $grey-dk-300;
+// $body-text-color: $grey-dk-100;
+// $nav-child-link-color: $colors-accent;
+// $base-button-color: #f7f7f7 ;
+// $btn-primary-color: $red-100 ;
+// $code-background-color: $grey-lt-000 ;
+// $table-background-color: $white ;
+// $search-background-color: $white ;
+// $search-result-preview-color: $grey-dk-000 ;
+
+$body-heading-line-height: 1.4;
+// Override
+.main-content {
+    margin-bottom: 1em; 
+
+    main {
+        font-family: $body-font-serif;
+        font-size: $font-size-6;
+
+        h1,
+        .page-title {
+            font-family: $body-font-family;
+            text-transform: capitalize;
+        }
+
+        .post-date {
+            color: $colors-secondary;
+            font-family: $body-font-family;
+        }
+
+        .post-categories {
+            float: right;
+            font-family: $body-font-family;
+        }
+    }
+
+    article {
+        a {
+            // underline
+            background-image: linear-gradient($colors-accentMuted 0%, $colors-accentMuted 100%);
+            background-repeat: repeat-x;
+            background-position: 0px 95%;
+            background-size: 1px 1px;
+            // color
+            color: $body-text-color;
+
+            &:hover {
+                color: $colors-accent;
+                font-weight: normal;
+                text-decoration: none;
+                background-image: linear-gradient($colors-accent 0%, $colors-accent 100%);
+            }
+        }
+
+        blockquote {
+            margin-left: 0;
+            padding-left: 1.2em;
+            border-left-width: 2px;
+            border-left-style: solid;
+            border-color: $colors-muted;
+            font-style: italic;
+        }
+    }
+
+
+    a.anchor-heading {
+        background: none !important;
+    }
+
+    #markdown-toc a {
+        color: $colors-accent;
+        background: none;
+
+        &:hover {
+            color: $colors-accent;
+            font-weight: normal;
+            text-decoration: underline;
+        }
+    }
+}
+
+footer#nav-footer {
+    a .icon {
+        width: 24px;
+        height: 24px;
+
+        path {
+            fill: $colors-secondary;
+        }
+    }
+
+    a:hover .icon path {
+        fill: $colors-accentMuted;
+    }
+
+    #social-links {
+        width: 120px;
+        display: grid;
+        display: -ms-grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+footer#main-footer {
+    ul {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+        padding: 0 !important;
+        margin: 0 !important;
+
+        li {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            &::before {
+                content: none !important;
+            }
+        }
+
+        li:nth-child(2) {
+            text-align: right;
+        }
+    }
+} 
+
+footer nav {
+    ul {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+        list-style: none;
+        padding: 0 !important;
+        margin: 0 !important;
+
+        li {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            &::before {
+                content: none !important;
+            }
+            &.hidden {
+                visibility: hidden;
+            }
+        }
+
+        li:nth-child(2) {
+            text-align: right;
+        }
+
+        span {
+            color: $colors-secondary;
+            font-size: $font-size-4;
+            display: block;
+            font-style: italic;
+            font-family: $body-font-serif;
+        }
+
+        a {
+            color: $colors-secondary;
+            font-size: $font-size-4;
+            display: block;
+            font-family: $body-font-family;
+            &:hover {
+                color: $colors-accent;
+            }
+        }
+    }
+}
