@@ -1,18 +1,24 @@
-title: C10.io
+title: c10.io
 description: Personal sites for Steve Yang to share and organize knowledge.
-theme: just-the-docs
-url: https://yangchenyun.github.io
-color_scheme: light_custom
+url: https://c10.io
 
-profile_links:
+author:
+  name: Steve Yang
+  url: https://c10.io/
   linkedin: https://www.linkedin.com/in/yangchenyun/
   github: https://github.com/yangchenyun
+
+theme: just-the-docs
+color_scheme: light_custom
+
 
 # aux_links:
 #   G: https://github.com/just-the-docs/just-the-docs-template
 
 plugins:
   - jekyll-jupyter-notebook
+  - jekyll-feed
+  - jekyll-seo-tag
 
 heading_anchors: true
 livereload: true

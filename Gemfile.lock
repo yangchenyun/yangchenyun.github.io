@@ -34,6 +34,8 @@ GEM
       webrick (~> 1.7)
     jekyll-compose (0.12.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-feed (0.17.0)
+      jekyll (>= 3.7, < 5.0)
     jekyll-jupyter-notebook (0.0.5)
       jekyll
     jekyll-sass-converter (3.0.0)
@@ -81,7 +83,9 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 4.3.2)
   jekyll-compose
+  jekyll-feed
   jekyll-jupyter-notebook
+  jekyll-seo-tag
   just-the-docs (= 0.5.4)
 
 BUNDLED WITH

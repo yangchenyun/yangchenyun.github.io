@@ -1,14 +1,14 @@
 <footer id="nav-footer" class="site-footer">
     <p id="social-links">
-        {% if site.profile_links %}
-            {% if site.profile_links.github %}
-                <a target="_blank" rel="noopener noreferrer" href="{{ site.profile_links.github }}">{% include icons/github.html %}</a>
+        {% if site.author %}
+            {% if site.author.github %}
+                <a target="_blank" rel="noopener noreferrer" href="{{ site.author.github }}">{% include icons/github.html %}</a>
             {% endif %}
-            {% if site.profile_links.linkedin %}
-                <a target="_blank" rel="noopener noreferrer" href="{{ site.profile_links.linkedin }}">{% include icons/linkedin.html %}</a>
+            {% if site.author.linkedin %}
+                <a target="_blank" rel="noopener noreferrer" href="{{ site.author.linkedin }}">{% include icons/linkedin.html %}</a>
             {% endif %}
-            {% if site.profile_links.twitter %}
-                <a target="_blank" rel="noopener noreferrer" href="{{ site.profile_links.twitter }}">{% include icons/twitter.html %}</a>
+            {% if site.author.twitter %}
+                <a target="_blank" rel="noopener noreferrer" href="{{ site.author.twitter }}">{% include icons/twitter.html %}</a>
             {% endif %}
         {% endif %}
     </p>
