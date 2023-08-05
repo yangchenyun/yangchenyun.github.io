@@ -78,6 +78,10 @@ $body-heading-line-height: 1.4;
             }
         }
 
+        a.footnote {
+            color: $colors-accent;
+        }
+
         blockquote {
             margin-left: 0;
             padding-left: 1.2em;
