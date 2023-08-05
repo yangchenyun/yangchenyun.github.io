@@ -28,6 +28,14 @@ Create page
     $ bundle exec jekyll compose "My new Page" --collection "pages"
 ```
 
+
+## Writing
+- [ ] Home page, introduction
+- [ ] Music landing page
+- [ ] Leadership landing page
+- [ ] Engineering 
+- [ ] ML page 
+
 ## Features
 - [x] Post page, date and category styles
 - [x] Update nav footer content
@@ -36,15 +44,14 @@ Create page
 - [ ] Post list page and RSS streams
 - [ ] Post page, ChatGPT integration
 - [ ] Archive page layout and style update, no need for `<table>`
-- [ ] Jupyter notebook styles
+- [ ] Jupyter notebook style
+- [ ] Explicit jupyter -> md authoring
+- [ ] Dark mode theme
 
 Integration
 - [x] Disqus comment
 - [x] Google Analytics integration
 
-- [ ] Spotify listening list
+- [ ] Spotify listening
 - [ ] Good reads integration list
-      - Static export as JSON
-
-Writing
-- [ ] Home page, introduction
+      - Static export GD as JSON and periodically import here

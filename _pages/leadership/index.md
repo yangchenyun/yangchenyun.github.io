@@ -4,6 +4,13 @@ nav_order: 2
 has_children: true
 ---
 
-Leadership is the ability to influence, motivate, and enable others to contribute toward the effectiveness and success of an organization. Leadership focuses on the development of followers and provides purpose, direction, and alignment.
+My on-going reflection and thoughts on leadership and organizational work, it includes:
 
-Effective leaders have certain qualities that allow them to drive results by inspiring action in others. Key leadership qualities include integrity, empathy, accountability, good communication skills, decisiveness, commitment, creativity, and an ability to motivate. Leaders encourage participation and new ideas, empower followers, provide coaching and feedback, and engage in active listening.
+- How to evaluate people's strength and weakness, how to develop people.
+- How to enable people to work together effectively and create values for an organization?
+- How to influence people's decision, how to align personal goals with organizational goals?
+- How to find talents in order to fulfill organizational objective?
+  - How to find talents as leaders in a start-up?
+  - How to find talents as leaders in large corporation?
+- Why conflicts always exist, what are various kinds of conflicts, how to deal with conflicts?
+- Why 1:1 meeting is so important, and how to conduct 1:1 meeting effectively?
